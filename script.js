@@ -316,3 +316,32 @@ string.addEventListener("mouseleave", function (dets) {
 });
 }
 curvesvganimation();
+
+function menuAnimation(){
+  let menu = document.querySelector(".navi")
+let close = document.querySelector(".menu i")
+
+let tl = gsap.timeline()
+tl.to(".menu", {
+   top:0,
+    duration: 0.3,
+})
+
+tl.from(".menu i", {
+   
+    duration: .1,
+    opacity: 0,
+   
+})
+ 
+tl.pause()
+
+menu.addEventListener("click",function(){
+  tl.play()
+})
+close.addEventListener("click",function(){
+  tl.reverse()
+})
+
+}
+menuAnimation()
