@@ -936,7 +936,7 @@ body {
     flex-direction: column;
     padding: 2vw;
     margin-top: 10vw;
-    justify-content: space-between;
+   
 
 
 }
@@ -973,7 +973,7 @@ body {
 
 .page4-img {
     width: 100%;
-    height:30%;
+    height:100%;
     display: flex;
     gap: 1vw;
     overflow: hidden;
@@ -983,7 +983,7 @@ body {
 
 .page4-img img {
     width: 50%;
-    height: 60%;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -1065,6 +1065,6 @@ body {
     left: 0;
     line-height: 6vw;
     margin-top: 10vw;
-
+   margin-bottom: 16vw;
 }
 }
