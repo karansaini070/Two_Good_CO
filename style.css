@@ -17,36 +17,40 @@ body {
     width: 100%;
 
 }
-.menu{
+
+.menu {
     height: 100vh;
     width: 100%;
     position: fixed;
     top: -110%;
     background-color: #000000;
     z-index: 100;
-   
+
     color: white;
-   
-  
+
+
 }
-.menu-h1{
+
+.menu-h1 {
     position: absolute;
     color: white;
     font-size: 2.4vw;
     right: 2%;
     top: 20%;
-   line-height: 4.5vw;
-  letter-spacing: -2px;
+    line-height: 4.5vw;
+    letter-spacing: -2px;
     text-align: right;
     font-family: Arial, Helvetica, sans-serif;
-   text-transform: uppercase;
- 
+    text-transform: uppercase;
+
 
 }
-.menu-h1 h1{
-   cursor: pointer;
+
+.menu-h1 h1 {
+    cursor: pointer;
 }
-.menu-para{
+
+.menu-para {
     position: absolute;
     bottom: 3%;
     display: flex;
@@ -54,22 +58,26 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     gap: 10vw;
 }
-.menu-p:nth-child(1){
+
+.menu-p:nth-child(1) {
     margin-right: 8vw;
 }
-.menu-p{
+
+.menu-p {
     display: flex;
     flex-direction: column;
     gap: .3vw;
 }
-.menu-p h5{
- padding-bottom: 1.8vw;
- font-size: .6vw;
- color: #545050;
- font-weight: 800;
- text-transform: uppercase;
+
+.menu-p h5 {
+    padding-bottom: 1.8vw;
+    font-size: .6vw;
+    color: #545050;
+    font-weight: 800;
+    text-transform: uppercase;
 }
-.menu i{
+
+.menu i {
     color: white;
     font-size: 1.7vw;
     position: absolute;
@@ -82,7 +90,7 @@ body {
     height: 100px;
     width: 100%;
     position: fixed;
-    z-index:9;
+    z-index: 9;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -119,7 +127,7 @@ body {
     transition: all ease .5s;
 }
 
-.nav-part2 .links a:hover{
+.nav-part2 .links a:hover {
     border-bottom: 1px solid #100e0dbb;
     color: #100e0dbb;
 
@@ -140,7 +148,7 @@ body {
 
 }
 
-.icon i:nth-child(1):hover{
+.icon i:nth-child(1):hover {
     font-size: 18px;
     margin: 0 20px;
     cursor: pointer;
@@ -470,7 +478,7 @@ body {
     line-height: 22px;
 }
 
-.page4-h p{
+.page4-h p {
     width: 8.4vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: .8rem;
@@ -512,14 +520,14 @@ body {
 
 }
 
-.page5 img:nth-child(1){
+.page5 img:nth-child(1) {
     position: absolute;
     height: 5vw;
     top: 3%;
     left: 35%;
 }
 
-.page5 h1{
+.page5 h1 {
     font-family: "Inter", sans-serif;
     text-transform: uppercase;
     font-size: 2vw;
@@ -527,18 +535,18 @@ body {
     padding-bottom: .6vw;
 }
 
-.logo-para{
+.logo-para {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
 
-.page5 img:nth-child(2){
+.page5 img:nth-child(2) {
     height: 11vw;
 }
 
-.logo-h{
+.logo-h {
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -548,7 +556,7 @@ body {
 
 }
 
-.string{
+.string {
     height: 200px;
     width: 100%;
     display: flex;
@@ -556,12 +564,12 @@ body {
     padding: 2vw;
 }
 
-.logo-h h4{
+.logo-h h4 {
     color: #00000097;
     font-size: .8vw;
 }
 
-.page5 p{
+.page5 p {
     width: 70%;
     text-align: center;
     font-size: .9vw;
@@ -572,6 +580,69 @@ body {
 }
 
 @media (max-width:600px) {
+    .menu {
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        top: -110%;
+        background-color: #000000;
+        z-index: 100;
+
+        color: white;
+
+
+    }
+
+    .menu-h1 {
+        position: absolute;
+        color: white;
+        font-size: 6vw;
+        right: 2%;
+        top: 20%;
+        line-height: 11vw;
+       
+
+    }
+
+    .menu-h1 h1 {
+        cursor: pointer;
+    }
+
+    .menu-para {
+        position: absolute;
+        bottom: 4%;
+        display: flex;
+        padding-left: 1.4vw;
+        font-family: Arial, Helvetica, sans-serif;
+       justify-content: space-between;
+    }
+
+  
+
+    .menu-p {
+        display: flex;
+        flex-direction: column;
+        gap: .8vw;
+    }
+   .menu-p p{
+    font-size: 3.5vw;
+   }
+    .menu-p h5 {
+        padding-bottom: 1.8vw;
+        font-size: 2.2vw;
+        color: #545050;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+
+    .menu i {
+        color: white;
+        font-size: 6vw;
+        position: absolute;
+        top: 2.4%;
+        right: 6%;
+        cursor: pointer;
+    }
 
     .nav {
         height: 100px;
