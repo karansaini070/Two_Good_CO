@@ -24,6 +24,50 @@ body {
     top: -110%;
     background-color: #000000;
     z-index: 100;
+   
+    color: white;
+   
+  
+}
+.menu-h1{
+    position: absolute;
+    color: white;
+    font-size: 2.4vw;
+    right: 2%;
+    top: 20%;
+   line-height: 4.5vw;
+  letter-spacing: -2px;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+   text-transform: uppercase;
+ 
+
+}
+.menu-h1 h1{
+   cursor: pointer;
+}
+.menu-para{
+    position: absolute;
+    bottom: 3%;
+    display: flex;
+    padding-left: 1.4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 10vw;
+}
+.menu-p:nth-child(1){
+    margin-right: 8vw;
+}
+.menu-p{
+    display: flex;
+    flex-direction: column;
+    gap: .3vw;
+}
+.menu-p h5{
+ padding-bottom: 1.8vw;
+ font-size: .6vw;
+ color: #545050;
+ font-weight: 800;
+ text-transform: uppercase;
 }
 .menu i{
     color: white;
