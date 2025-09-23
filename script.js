@@ -137,7 +137,7 @@ function productanimation() {
       });
     });
 
-    dets.addEventListener("mouseleave", function () {
+    detsItem.addEventListener("mouseleave", function () {
       gsap.to(detsItem, {
         y: -20,
         opacity: 0,
